@@ -40,7 +40,7 @@ mixin LoaderAndMessages<T extends ConsumerStatefulWidget> on ConsumerState<T> {
     );
   }
 
-  void showErrosSnackBar(String message) =>
+  void showErrorSnackBar(String message) =>
       _showSnackBar(message, AppColors.error);
 
   void showSuccessSnackBar(String message) =>
